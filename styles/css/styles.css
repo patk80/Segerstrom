@@ -2,3 +2,7 @@ body {
   background-color: #f8f8f3;
   font-family: "Montserrat", sans-serif;
 }
+
+#header {
+  background-image: linear-gradient(to right, #ef8d1d, #f6de4f);
+}

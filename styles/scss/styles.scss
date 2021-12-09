@@ -1,6 +1,21 @@
+$scftaPurple: #604497;
+$darkPurple: #3c2073;
+
 body {
     background-color: #f8f8f3;
     font-family: "Montserrat", sans-serif;
+}
+
+.btn-primary {
+    background-color: $scftaPurple;
+    border-color: $scftaPurple;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+        background-color: $darkPurple;
+        border-color: $darkPurple;
+    }
 }
 
 #header {

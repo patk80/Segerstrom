@@ -3,6 +3,18 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.btn-primary {
+  background-color: #604497;
+  border-color: #604497;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #3c2073;
+  border-color: #3c2073;
+}
+
 #header {
   background-image: linear-gradient(to right, #ef8d1d, #f6de4f);
 }

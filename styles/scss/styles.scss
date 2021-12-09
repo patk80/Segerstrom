@@ -18,6 +18,43 @@ body {
     }
 }
 
+/* Side Nav + Main Content Flex Styles Start */
+#side-nav-and-content-container {
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 0;
+}
+
+#side-nav {
+    width:100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+    #side-nav-and-content-container {
+        flex-direction: column;
+    }
+
+    #side-nav {
+        width:100%;
+    }
+
+    #side-nav-ul {
+        display: flex;
+    }
+}
+/* Side Nav + Main Content Flex Styles End */
+
 #header {
     background-image: linear-gradient(to right, #ef8d1d , #f6de4f);
 }

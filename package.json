@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/patk80/Segerstrom/issues"
   },
-  "homepage": "https://github.com/patk80/Segerstrom#readme"
+  "homepage": "https://github.com/patk80/Segerstrom#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.44.0"
+  }
 }

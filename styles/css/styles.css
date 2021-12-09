@@ -24,3 +24,13 @@ body {
   color: #000000;
   font-weight: bold;
 }
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background-color: #ecece4;
+  color: #000000;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}

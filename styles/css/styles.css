@@ -6,3 +6,9 @@ body {
 #header {
   background-image: linear-gradient(to right, #ef8d1d, #f6de4f);
 }
+
+.breadcrumb-item + .breadcrumb-item::before,
+.breadcrumb-item.active {
+  color: #000000;
+  font-weight: bold;
+}

@@ -24,7 +24,6 @@ body {
 
 #side-nav {
   width: 100px;
-  background-color: #ffffff;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -116,6 +115,9 @@ body {
 
 .show-links-purple {
   color: #604497;
+}
+.show-links-purple:hover {
+  color: #3c2073;
 }
 
 .cabaret-series-border {

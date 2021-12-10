@@ -21,13 +21,11 @@ body {
 /* Side Nav + Main Content Flex Styles Start */
 #side-nav-and-content-container {
     display: flex;
-    /* justify-content: space-around; */
     padding: 0;
 }
 
 #side-nav {
-    width:100px;
-    background-color: #ffffff;
+    width: 100px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -108,7 +106,7 @@ body {
 }
 
 .accordion-button::before {
-    content: "\f067";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    content: "\f067";
     font-family: FontAwesome;
     padding-right: 5px;
 }
@@ -119,6 +117,9 @@ body {
 
 .show-links-purple {
     color:$scftaPurple;
+    &:hover {
+        color: $darkPurple;
+    }
 }
 
 .cabaret-series-border {

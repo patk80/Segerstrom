@@ -51,6 +51,20 @@ body {
   }
 }
 /* Side Nav + Main Content Flex Styles End */
+#alert-text {
+  color: #dac444;
+}
+
+#alert-x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  border: none;
+  color: #999999;
+  background-color: #000000;
+}
+
 #header {
   background-image: linear-gradient(to right, #ef8d1d, #f6de4f);
 }
@@ -88,4 +102,15 @@ body {
 
 .show-links-purple {
   color: #604497;
+}
+
+.cabaret-series-border {
+  border-right: #c8c9ca 1px solid;
+}
+
+@media only screen and (max-width: 768px) {
+  .cabaret-series-border {
+    border-right: none;
+    border-bottom: #c8c9ca 1px solid;
+  }
 }

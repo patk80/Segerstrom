@@ -87,6 +87,10 @@ body {
   font-weight: bold;
 }
 
+.accordion {
+  background-color: #f8f8f3;
+}
+
 .accordion-item {
   border: none;
 }

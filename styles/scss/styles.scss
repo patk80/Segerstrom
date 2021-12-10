@@ -65,6 +65,10 @@ body {
     font-weight: bold;
 }
 
+.accordion-item {
+    border: none;
+}
+
 .accordion-button,
 .accordion-button:not(.collapsed) {
     background-color: #ecece4;

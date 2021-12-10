@@ -81,3 +81,7 @@ body {
 .accordion-button::after {
   display: none;
 }
+
+.show-links-purple {
+  color: #604497;
+}

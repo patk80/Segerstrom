@@ -33,6 +33,20 @@ body {
     text-align: center;
 }
 
+.nav-item {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+#side-nav-logo {
+    height: 67px;
+    width: 53px;
+}
+
+#sign-in-side-nav-item {
+    font-size: 10px;
+}
+
 #main-content {
     display: flex;
     flex-direction: column;

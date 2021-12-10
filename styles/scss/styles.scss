@@ -105,12 +105,6 @@ body {
     box-shadow: none;
 }
 
-.accordion-button::before {
-    content: "\f067";
-    font-family: FontAwesome;
-    padding-right: 5px;
-}
-
 .accordion-button::after {
    display: none;
 }

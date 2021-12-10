@@ -18,7 +18,6 @@ body {
 /* Side Nav + Main Content Flex Styles Start */
 #side-nav-and-content-container {
   display: flex;
-  /* justify-content: space-around; */
   padding: 0;
 }
 
@@ -100,13 +99,6 @@ body {
 
 .accordion-button:focus {
   box-shadow: none;
-}
-
-.accordion-button::before {
-  content: "\f067";
-  /* this is your text. You can also use UTF-8 character codes as I do here */
-  font-family: FontAwesome;
-  padding-right: 5px;
 }
 
 .accordion-button::after {
